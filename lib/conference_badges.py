@@ -1,11 +1,14 @@
 def badge_maker(name):
-    return None
+    return f"Hello, my name is {name}."
+
 
 def batch_badge_creator(names):
-    return None
+    return [f"Hello, my name is {name}." for name in names]
 
-def assign_rooms(names):
-    return None
+def assign_rooms(names, rooms):
+    pass
+
+
 
 def printer(names):
     return None
